@@ -1,14 +1,9 @@
 import pandas as pd
 
-
 CSV_FILE = "popular_baby_names.csv"
 
-
-# Load the CSV file into a pandas DataFrame.
 df = pd.read_csv(CSV_FILE)
 
-
-# Required inspection tasks
 print("\n1. First 2 rows")
 print(df.head(2))
 
